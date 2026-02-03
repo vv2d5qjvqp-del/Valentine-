@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Be My Valentine 💘</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffd6e8;
+      font-family: Arial, sans-serif;
+    }
+
+    .box {
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      text-align: center;
+      width: 320px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    img {
+      width: 220px;
+      margin: 15px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 8px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .yes {
+      background-color: #ff4d6d;
+      color: white;
+    }
+
+    .no {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <h2>Will you be my Valentine? 💖</h2>
+
+    <img src="slime.jpg" alt="Slime cat">
+
+    <div>
+      <button class="yes" onclick="window.location.href='yes.html'">
+        Yes
+      </button>
+
+      <button class="no" onclick="alert('😡😡😡')">
+        No
+      </button>
+    </div>
+  </div>
+</body>
+</html>
